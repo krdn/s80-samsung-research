@@ -11,8 +11,8 @@
 | 연구·프롬프트·운영 개선과 되돌리기 | [업그레이드와 진화](docs/guides/evolution.md) |
 | 현재 확인 상태·기존 기록의 불일치 | [인계 상태](docs/ARCHIVE-STATUS.md) |
 | 저장 범위·무결성·제외 항목 | [보존 정책](archive/README.md) |
-| 연구의 최신 내용 | [통합 연구 문서](docs/research/samsung-direction-80-research-2026-11.md) |
-| 갱신 내역 | [변경 이력](docs/research/samsung-forecast-2026-11/buzz/changes.md) |
+| 연구의 최신 내용 | [최신 통합 연구 문서](snapshots/20261110T132851Z/docs/research/samsung-direction-80-research-2026-11.md) |
+| 갱신 내역 | [최신 변경 이력](snapshots/20261110T132851Z/docs/research/samsung-forecast-2026-11/buzz/changes.md) |
 | 시간 지연 원인·개선 교훈 | [이전 과정 분석](docs/incidents/2026-11-10-buzz-migration-latency.md) |
 
 ## 구성
@@ -37,7 +37,7 @@
 @S80-총괄 [S80-CYCLE] 지금 연구를 갱신해. 운영 계약에 따라 조사·토론·검사·외부검토를 진행하고 결과와 남은 문제를 알려줘.
 ```
 
-2026-11-10 서버 조회에서 화·금 18:30 KST 예약 활성화를 확인했다. 최신 로컬 실행 기록은 19:58 KST 연구 갱신 PASS다. 현재 온라인 상태, 예약 시각의 정확한 발화, 재부팅 복원, 80% 성능을 이 사실로 증명하지 않는다.
+2026-11-10 서버 조회에서 화·금 18:30 KST 예약 활성화를 확인했다. 최신 보존 run은 2026-11-10 22:21 KST에 완료된 문서 갱신이며 [스냅샷](snapshots/20261110T132851Z/README.md)에 있다. 현재 온라인 상태, 예약 시각의 정확한 발화, 재부팅 복원, 80% 성능을 이 사실로 증명하지 않는다.
 
 ## 이 저장소의 역할
 
@@ -46,3 +46,5 @@
 원본 파일의 절대경로·신원 ID·서명·해시를 변경하지 않았다. 이들은 과거 증거다. 새 설치에서는 별도 구성으로 경로와 신원을 바꾼다. 인증키·비밀번호·Buzz 개인키·OS keyring·전역 DB는 포함하지 않는다.
 
 원본 제품: [krdn/test-samjeonnix](https://github.com/krdn/test-samjeonnix). 본 저장소는 연구 보존과 운영 문서용이다. 자동 주문·서비스 배포·자동 모델 학습은 구현하지 않았다.
+
+완료 문서와 중요한 과정은 소유자 요청에 따라 항상 이 저장소에 새 스냅샷·PR로 보존한다. 원격 main과 SHA를 확인하기 전에는 GitHub 저장 완료로 보고하지 않는다.

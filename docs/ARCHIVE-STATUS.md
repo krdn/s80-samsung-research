@@ -1,3 +1,7 @@
+# 최신 보존 상태
+
+2026-11-10 후속 run `cycle-20261110-319ad15f64bde8c638fa1f11b872ebc379ad5cdb8196090653385833ab88e09d`은 COMPLETED다. [최신 최종 문서](../snapshots/20261110T132851Z/docs/research/samsung-direction-80-research-2026-11.md)와 [과정·SHA·한계](../snapshots/20261110T132851Z/README.md)를 확인한다. 정본 SHA는 `da3dad78a4f3b4fd385973d8b4a856b1841c8d8d45af9a9602b1c47c04d83083`다. 아래는 최초 보존 시점의 역사 설명이며 덮어쓰지 않았다.
+
 # 2026-11-10 보존 시점 상태
 
 이 문서는 현재 보존 작업의 해석이다. 원본 STATUS·STATE·manifest는 당시 기록으로 그대로 보존한다.
