@@ -12,7 +12,7 @@
 | 현재 확인 상태·기존 기록의 불일치 | [인계 상태](docs/ARCHIVE-STATUS.md) |
 | 저장 범위·무결성·제외 항목 | [보존 정책](archive/README.md) |
 | 연구의 최신 내용 | [최신 통합 연구 문서](snapshots/20261110T132851Z/docs/research/samsung-direction-80-research-2026-11.md) |
-| 갱신 내역 | [최신 변경 이력](snapshots/20261110T132851Z/docs/research/samsung-forecast-2026-11/buzz/changes.md) |
+| 갱신 내역 | [최신 변경·과정](snapshots/20261110T132851Z/README.md) |
 | 시간 지연 원인·개선 교훈 | [이전 과정 분석](docs/incidents/2026-11-10-buzz-migration-latency.md) |
 
 ## 구성
