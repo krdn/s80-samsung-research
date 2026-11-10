@@ -1,0 +1,71 @@
+{
+  "run_id": "cycle-20261110-319ad15f64bde8c638fa1f11b872ebc379ad5cdb8196090653385833ab88e09d",
+  "checked_at": "2026-11-10T13:16:32.805646+00:00",
+  "status": "PASS_DOCUMENT_CHECKS",
+  "candidate_sha256": "da3dad78a4f3b4fd385973d8b4a856b1841c8d8d45af9a9602b1c47c04d83083",
+  "baseline_sha256": "2ade10a204dbc0210f4e71c15083c77f9848fa150230ad02effce7e7ad7c07cc",
+  "diff_sha256": "bdb2ede5e531905aadc03b21a743e9d7c22aa7f55c54496f775de42b3846b688",
+  "input10_sha": "PASS",
+  "relative_links": {
+    "count": 27,
+    "missing": [],
+    "resolution_base": "/home/gon/dev/test/test-samjeonnix/docs/research",
+    "candidate_storage_note": "links resolve at canonical destination"
+  },
+  "markdown_tables": {
+    "count": 9,
+    "consistent_columns": true
+  },
+  "code_fences_balanced": true,
+  "calculations": {
+    "wilson_examples": [
+      {
+        "correct": 16,
+        "n": 20,
+        "lower": 0.5839825677481064,
+        "upper": 0.919342337420202
+      },
+      {
+        "correct": 80,
+        "n": 100,
+        "lower": 0.7111708344068411,
+        "upper": 0.8666330666689676
+      },
+      {
+        "correct": 200,
+        "n": 250,
+        "lower": 0.7460440266329055,
+        "upper": 0.8448759936698279
+      },
+      {
+        "correct": 215,
+        "n": 250,
+        "lower": 0.8115202816735541,
+        "upper": 0.8975837426897257
+      },
+      {
+        "correct": 220,
+        "n": 250,
+        "lower": 0.8338618921256289,
+        "upper": 0.9146368002578331
+      },
+      {
+        "correct": 400,
+        "n": 500,
+        "lower": 0.7627108946948261,
+        "upper": 0.8327145010282427
+      }
+    ],
+    "selective_example": "40/50=80%;50/250=20%;40/250=16%",
+    "new_industry_numeric_claims": "NONE"
+  },
+  "ste_lint": {
+    "status": "NOT_RUN",
+    "reason": "docs/conventions/ste100-writing.md absent",
+    "exists": false
+  },
+  "performance_80_percent": "UNVERIFIED",
+  "monthly_audit": "PARTIAL",
+  "experiments": "NOT_RUN",
+  "review_model_configuration": "claude-opus-5-5/high requested; provider returned model UNVERIFIED"
+}

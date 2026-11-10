@@ -9,6 +9,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify preserved source bytes
         run: sha256sum -c archive/SHA256SUMS
+      - name: Verify research snapshots
+        run: |
+          for sums in snapshots/*/SHA256SUMS; do
+            (cd "$(dirname "$sums")" && sha256sum -c SHA256SUMS)
+          done
       - name: Parse JSON artifacts
         run: |
           python3 - <<'PYCODE'

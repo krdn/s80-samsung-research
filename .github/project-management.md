@@ -1,6 +1,6 @@
 # GitHub 기록 기준
 
-기준 저장소: https://github.com/krdn/s80-samsung-research (private).
+기준 저장소: https://github.com/krdn/s80-samsung-research (현재 공개 저장소; 이번 작업에서 공개 범위 변경 없음).
 사용자 요청: S80 연구에 사용된 Buzz 설정·작동·진화 방법과 작업 산출물을 새 저장소에 보존.
 
 | 기능 | 적용 |
@@ -17,3 +17,5 @@
 | insights | not_applicable: 운영 지표 수집 없음 |
 
 원본 test-samjeonnix의 PR과 미커밋 파일은 변경하지 않는다. 이 저장소의 병합은 기존 Buzz 운영 적용을 의미하지 않는다. 과거 검토 PASS는 이번 보존 작업의 외부검토 결과가 아니다. 이번 작업은 문서·보존 작업이므로 별도 모델 리뷰를 실행하지 않는다.
+
+2026-11-10 소유자 요청: 완료 문서와 중요한 과정을 항상 이 저장소에 보존한다. 이번 후속 스냅샷은 기존 PR 경로와 SHA/JSON 검사로 전달한다. 배포·릴리스·추가 Project는 해당하지 않는다.

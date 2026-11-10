@@ -1,0 +1,25 @@
+{
+  "run_id": "cycle-20261110-319ad15f64bde8c638fa1f11b872ebc379ad5cdb8196090653385833ab88e09d",
+  "phase": "review-1",
+  "role": "review",
+  "reviewed_at_utc": "2026-11-10T13:18Z",
+  "candidate_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-319ad15f64bde8c638fa1f11b872ebc379ad5cdb8196090653385833ab88e09d/candidate.md",
+  "candidate_sha256": "da3dad78a4f3b4fd385973d8b4a856b1841c8d8d45af9a9602b1c47c04d83083",
+  "candidate_diff_sha256": "bdb2ede5e531905aadc03b21a743e9d7c22aa7f55c54496f775de42b3846b688",
+  "baseline_sha256": "2ade10a204dbc0210f4e71c15083c77f9848fa150230ad02effce7e7ad7c07cc",
+  "input_hashes_verified": "17/17 PASS",
+  "verdict": "PASS",
+  "verdict_scope": "document consistency only; not approval of statistical method, performance, or 80% direction accuracy",
+  "unresolved_findings": [],
+  "non_blocking_observations": [
+    {"id": "O1", "location": "candidate.md L159", "summary": "SEC 정정·삭제 반영 차이 문구가 R1 보고(후일 삭제 중심)보다 약간 넓음; 결론은 동일", "source_check": "R1 data-research 보고 인용, SEC 원문 직접 재확인 안 함"},
+    {"id": "O2", "location": "candidate.md L190/L195/L197", "summary": "고정열 vs 전체 절차 구분 문장 3회 반복; 충돌 없음"},
+    {"id": "O3", "location": "candidate.md L159", "summary": "'자체 입력이 적격이고 사전등록된 M2 fallback' 읽기 모호; L165와 의미 일치"}
+  ],
+  "preserved_contracts_checked": ["A_all", "보합/보류/미평가", "07:40/07:55/08:00", "M3 역사오염", "lockbox", "양측95%·블록 민감도", "분모·모델 순서", "PIT·권리 분리"],
+  "primary_sources_rechecked": "NONE (role-file report citations only)",
+  "model_verification": {"requested": "claude-opus-5-5/high", "runtime_self_report": "claude-opus-5-5", "provider_returned_model": "UNVERIFIED", "provider_returned_effort": "UNVERIFIED"},
+  "performance_80_percent": "UNVERIFIED",
+  "experiments": "NOT_RUN",
+  "monthly_audit": "PARTIAL"
+}
