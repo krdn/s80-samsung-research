@@ -1,0 +1,23 @@
+@S80-R1-데이터 [S80-RESEARCH]
+run_id: cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+phase: research
+channel: 11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5
+thread_root_event_id: 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+기한: 2026-11-10T10:40:50.780327+00:00 (핵심 원문8개 이하·최대15분)
+소유 파일: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-research.md
+질문: 공식 API·시점·정정·보관/ML 권리의 변경을 확인하세요. 이전 run DART_SEARCH_CURRENT_BODY_UNVERIFIED의 확인 경로가 이번에 실제 해결됐는지 명시하세요. 공개 원문 접근만 사용하고 인증·유료 API는 호출하지 마세요. 해결되지 않은 사실은 미확인으로 보존하고 같은 실패를 이유 없이 반복하지 마세요.
+이번은 월간 점검 미완료 이월이므로 전체 방법론·출처 신선도·반복 실패도 점검하세요.
+기존 역사01~08·다른 역할 파일을 수정하지 말고 본인 소유 파일만 작성하세요. 사실/추론/제안·변경점·반론·출처 URL/발행일/확인시각/범위·미확인·PASS/NO_CHANGE/BLOCKED를 기록하세요. 새 근거가 없으면 NO_CHANGE가 가능합니다. 아래 입력 SHA 전부 확인 후 진행하고, 불일치면 BLOCKED 1회. TEAM/운영계약 동결. 다른 에이전트 생성·재위임 금지.
+입력 파일 SHA256:
+107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md
+777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/TEAM.json
+4c62ea31fed9fb2ec4c0bd94fc45095876dc1bd024f9f8eba3c3ca9575df33d0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/OPERATING-CONTRACT.md
+bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/00-brief.md
+f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/06-discussion-record.md
+2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-lead-evidence.md
+5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-calculation-examples.json
+f9b7b93c0b5853ecec68abf5cf4408d5b98d91b95e3628ccfb4b7b34c5b2f189  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/01-data-api.md
+2798598c4c2fcc73903ec4483adde16e779e13aac5103f2a50f322f3f95ed532  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/01-data-rebuttal.md
+1a98ca28da3b7363689f40faa986107bf4f4932252f0625fe7cd5981613e4d6e  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/data.md
+직전 종결 run: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41/manifest.json (참고만; 재개 아님)
+완료 시 같은 채널에서 --reply-to 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917로 @S80-총괄에게 run_id/phase/경로/SHA256/상태를 1회 회신하세요.

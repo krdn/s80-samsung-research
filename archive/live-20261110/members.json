@@ -1,0 +1,26 @@
+[
+  {
+    "pubkey": "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+    "role": "owner"
+  },
+  {
+    "pubkey": "4d8b5a7277f5ec6b4c5d303e490ca6463c3e7059a96398062444e4223ae8bfe3",
+    "role": "bot"
+  },
+  {
+    "pubkey": "b5d2d6880bc73d3ad5b444c385e8ef3deca4af3b148b8cf7aabddcb6ee9c9775",
+    "role": "bot"
+  },
+  {
+    "pubkey": "699ae7aed2d0b586228e7e293a0bb28c17f8009a46fcb8762d814743cab4c915",
+    "role": "bot"
+  },
+  {
+    "pubkey": "43fcff9a1b70e073eab37a77ae015dba2ce7026f232bb910eea482900fd86ac1",
+    "role": "bot"
+  },
+  {
+    "pubkey": "75e1c1fe9bd1f3337d5d4efa98c9d427bb88102cf01d160294c21e02390449e7",
+    "role": "bot"
+  }
+]

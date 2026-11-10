@@ -1,0 +1,33 @@
+@S80-R3-산업 [S80-INDUSTRY-ANSWER]
+run_id: cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+phase: industry-answer
+channel: 11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5
+thread_root_event_id: 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+기한: 2026-11-10T10:55:37.344102+00:00 (응답 최대10분)
+소유 파일: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-answer.md
+R1/R2 research·rebuttal과 본인 산업 보고서2개를 읽고 다음 질문에 직접 답하세요.
+1. R1: 배당 결의 원문 버전·공개시각·실수신·지급 사실의 추가 증거가 있는가? 없다면 현재 IR의 보통/우선 각4,601원·3Q 결의 총액30조원 확인에만 한정하고 과거 입력 적격·지급 완료·오늘 신규 surprise에서 제외하는가? 자료/파생라벨 권리와 상태 만료 규칙도 확인·미확인을 나누세요.
+2. R2: 같은 발표 재인용, 내용 변경 정정, 계획→결의→집행 단계 전환을 새 사건/revision/유지 상태로 구분할 최소 증거와 최초 가용시각·내용 변화 불명확 시 보류 기준은 무엇인가? 새 수치 문턱이나 모수를 만들지 말고 실제 근거 범위를 구분하세요.
+3. P1 최소 사전등록4항목(검증 대상·자료/반복·오류 처리/주장·판정/실패·보고)을 산업 사건 군집·재발행·짧은 이력 관점에서 판단하세요. 고정열 조건부 검사와 전체 절차 검증, 가상 민감도와 실제 오류율·검정력, 예정일 N과 같은 날짜 M2/M3 비교의 구분을 보존하세요. 산업 규칙에 필요한 미등록 상세와 근거 부족을 남기세요.
+R1/R2 간 상세 질문은 서로의 rebuttal을 입력으로 받지 못한 시점에 작성됐으므로 두 문서를 읽고 직접 확인되는 답/잔여 미해결을 분리하세요. 상대의 답·합의·권리를 대신 만들지 마세요. 추가 왕복은 자동 생성하지 않습니다.
+사실/추론/제안·변경점·반론·출처 URL/발행일/확인시각/근거범위·미확인·PASS/NO_CHANGE/BLOCKED를 기록하세요. 재사용 출처와 이번 신규 확인을 구분하세요. 기존 평가·A_all·보합/보류/미평가·PIT·정정·캘린더·마감·M3 역사오염/lockbox 유지. 월간 감사 부분 완료·방향80% 및 실제 오류율/검정력 미검증을 보존하세요. 즉시 SPA·자동 블록 선택 도입은 제안하지 않습니다.
+입력 전부 재해시·TEAM 역할/총괄 발신키·STOP·동일phase 중복을 확인하고 불일치는 BLOCKED1회. 본인 신규 소유 파일만 작성하고 역사·canonical·TEAM·manifest·타 역할 파일 보존. 에이전트 생성/재위임·인증·유료 호출 금지.
+입력 SHA256:
+107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md
+777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/TEAM.json
+4c62ea31fed9fb2ec4c0bd94fc45095876dc1bd024f9f8eba3c3ca9575df33d0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/OPERATING-CONTRACT.md
+bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/00-brief.md
+f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/06-discussion-record.md
+2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-lead-evidence.md
+5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-calculation-examples.json
+6fcdd15f8e584b003b90acfa782d461fac4ba107c81c02fcfa08f6bc452f1821  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/03-industry-scenarios.md
+4393109803545d78cb11e204ce27e3247d382d213a1cd940ce51f54c46aac746  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/03-industry-rebuttal.md
+1818b8812ca3f63b6e112754cb9956942c97a35c09ead7675565dffac0b8b7dc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/industry.md
+9e5adaa29aa488b5143644770d9d2d06a40c95cb975f37a1a19c40ff348faffc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-research.md
+06eefed88629947c796c005b1c5604e44661ef0e7106d1f3acc5ce4cacd872b2  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-research.md
+b5481fa4518ecf2a359518f981f38e7f862b82b37ad29a2db5910a95d8d62287  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-scenarios.md
+dacff7868e2941ca16697c70a78c6a2b465ca907eef9eeede8db49b1565557f1  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-rebuttal.md
+baab6a24290668b93c600aef8942db5b61869985f2e3d5b96de0fb06b723e471  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-rebuttal.md
+d70635aff4bbdbc37139a92600a074443edeb601a97e2591e443be8d3fb59efa  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-rebuttal.md
+
+완료 시 같은 채널에서 @S80-총괄에게 run_id/phase/경로/SHA/판정을1회 회신하세요. 이번 요청은 현재 턴 context 대상에 연결하며 원래 run root는 위 메타데이터로 보존합니다. 후속 회신은 운영계약의 원래 root 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917를 사용하세요.

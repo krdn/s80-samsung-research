@@ -1,0 +1,89 @@
+[
+  {
+    "role": "coordinator",
+    "pubkey": "4d8b5a7277f5ec6b4c5d303e490ca6463c3e7059a96398062444e4223ae8bfe3",
+    "reply_event_id": "efc3048214fb96be9fb0ff618d1f4855551bd574cb3281e5f98547a144936745",
+    "artifact_sha256": "1aba9da9afd36402ebe02bf66833a5ea81ebd20c302d5d4d2c1da449755edcaa",
+    "same_channel": true,
+    "thread_tags": [
+      [
+        "e",
+        "44753f1417eaed41134393f08f0ebb70f8597061b592ed3061ce1e5e4dbb7159",
+        "",
+        "root"
+      ],
+      [
+        "e",
+        "cd3055ae31bbec4008da0fde2f1f5a8f185c6f69e8edf9bc73851fc1d1ac9b67",
+        "",
+        "reply"
+      ]
+    ],
+    "initial_request_thread_match": false,
+    "thread_note": "Channel-scoped session received incidental mentions from specialist owner requests; coordinator bootstrap replied in data bootstrap thread. Full pilot must explicitly preserve root. Does not count as initial coordinator-root proof."
+  },
+  {
+    "role": "data",
+    "pubkey": "b5d2d6880bc73d3ad5b444c385e8ef3deca4af3b148b8cf7aabddcb6ee9c9775",
+    "reply_event_id": "cd3055ae31bbec4008da0fde2f1f5a8f185c6f69e8edf9bc73851fc1d1ac9b67",
+    "artifact_sha256": "6c8f44d2adf4e1c63206aebd0c28d35193d3b686093c8b498f5ac8350a030e21",
+    "same_channel": true,
+    "thread_tags": [
+      [
+        "e",
+        "44753f1417eaed41134393f08f0ebb70f8597061b592ed3061ce1e5e4dbb7159",
+        "",
+        "reply"
+      ]
+    ],
+    "initial_request_thread_match": true
+  },
+  {
+    "role": "quant",
+    "pubkey": "699ae7aed2d0b586228e7e293a0bb28c17f8009a46fcb8762d814743cab4c915",
+    "reply_event_id": "1f6c54cae2bf015f2c145ebbace739ebb1a7a36acce359ddcd66d074a97cf919",
+    "artifact_sha256": "c13b5676dbaef840df45f47fef62b5480af539c665ce0bb5ed7f9b0f24e49c58",
+    "same_channel": true,
+    "thread_tags": [
+      [
+        "e",
+        "f6625047a46b59c72cd394def2177b30cb168a628b30a30922b2ce34baee6572",
+        "",
+        "reply"
+      ]
+    ],
+    "initial_request_thread_match": true
+  },
+  {
+    "role": "industry",
+    "pubkey": "43fcff9a1b70e073eab37a77ae015dba2ce7026f232bb910eea482900fd86ac1",
+    "reply_event_id": "af599483f39ff1a0fa35bea6a6d5af86ab14d9846129c74ef3ac533b065808f2",
+    "artifact_sha256": "0e804ecbd5fb8c6164b90614d3fe1a08e427834c1b189820209cbe6f7e2055c0",
+    "same_channel": true,
+    "thread_tags": [
+      [
+        "e",
+        "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+        "",
+        "reply"
+      ]
+    ],
+    "initial_request_thread_match": true
+  },
+  {
+    "role": "review",
+    "pubkey": "75e1c1fe9bd1f3337d5d4efa98c9d427bb88102cf01d160294c21e02390449e7",
+    "reply_event_id": "3fe4039ef0ee700962eedcaf7731a05176971fc8ecb43e127e1c2816861c5853",
+    "artifact_sha256": "45d39e5c84335e57fefd6e43638eb1d7f674d78856a1167deb855ac99e478e30",
+    "same_channel": true,
+    "thread_tags": [
+      [
+        "e",
+        "7f8e9605ab006caf19d54b95ae0d9aac8da16b0fd49f23ad7ccec95e4d96a13e",
+        "",
+        "reply"
+      ]
+    ],
+    "initial_request_thread_match": true
+  }
+]

@@ -1,0 +1,42 @@
+@S80-외부검토 [S80-REVIEW]
+run_id: cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+phase: review-1
+channel: 11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5
+thread_root_event_id: 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+기한: 2026-11-10T11:11:12.456736+00:00 (候補·검사·리뷰 합계30분 운영목표; run 절대기한 2026-11-10T11:55:50.780327+00:00)
+검토 대상 전체 후보: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md
+후보 SHA256: 2ade10a204dbc0210f4e71c15083c77f9848fa150230ad02effce7e7ad7c07cc
+설치 예정 위치: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md
+후보의 상대 링크는 설치 예정 canonical 디렉터리를 기준으로 해석하세요. 후보 파일 자체 위치의 미리보기 한계를 문서검사에 명시했습니다.
+변경diff: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.diff
+검사: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/document-checks.json
+소유 출력: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/external-review-1.md 및 /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/review-verdict-1.json
+
+후보 전체·diff·R1/R2/R3 research/rebuttal/industry-answer·기존07을 실제 읽고 검토하세요. P1 최소4항목 구체화와 현행 DART/배당 근거 상태 갱신이 변경 범위입니다. 연구 제안과 실등록·실증을 구분하고 반증·잔여 미등록을 보존했는지 독립 판단하세요. 배당 각4,601원/합계30조원 및 단계·확인시각은 R1/R3의 원문 대조 범위를 확인하고 직접 확인 못하면 표시하세요.
+문서검사는 상대링크(설치위치 기준)·표 구조·Wilson4예시·R2내장 Markov 동적계획 코드 재실행만 PASS_SCOPE입니다. 문체 lint는 저장소 기준 부재로 NOT_RUN이며 실제 학습·백테스트·전체 오류율/검정력·80%는 미검증입니다. 월간 감사 부분 완료 유지. 동의 수는 실측 증거가 아닙니다.
+A_all·보합/보류/미평가·정정·캘린더·마감·M3역사오염·lockbox·기준선·검정선택의 기존 계약과 변경 정합성을 검토하세요. 고정열 검사/전체 절차, 가상 민감도/시장 모수·검정력을 섞지 않아야 합니다. 새 실험·통계법 도입은 없습니다. 필요한 최소 수정과 실제 위치·영향을 지적하고 취향·추가 기능 요구를 결함으로 만들지 마세요.
+중앙 review-models.json과 review-llm --dry-run은 claude-opus-5-5/high 일치 확인했습니다. Buzz UI 별칭/저장 선택과 실제 반환 모델은 별도이며, 이번 제공자 반환 모델을 확인 가능하면 증거와 함께 보고하고 불가하면 UNVERIFIED를 유지하세요. 대체 모델·effort 변경·별도 리뷰 호출은 하지 마세요.
+TEAM 역할/발신키·STOP·중복과 입력 SHA를 전부 확인하세요. 불일치는 BLOCKED1회. 원본 후보·canonical·타 역할·manifest를 수정하지 말고 지정 신규 출력2개만 작성하세요. 다른 에이전트 생성/재위임·유료/인증 데이터 호출 금지.
+판정 PASS/REVISE/BLOCKED. verdict JSON에 run_id·phase·candidate_path·candidate_sha256·verdict·unresolved_findings·model_verification을 기록하세요. 정확한 대상 해시와 미해결 주요 결함 없음일 때만 PASS. 수정 시 총괄이 별도 review-2로 수정분1회만 요청합니다.
+입력 SHA256:
+107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md
+777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/TEAM.json
+4c62ea31fed9fb2ec4c0bd94fc45095876dc1bd024f9f8eba3c3ca9575df33d0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/OPERATING-CONTRACT.md
+bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/00-brief.md
+f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/06-discussion-record.md
+2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-lead-evidence.md
+5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-calculation-examples.json
+2ade10a204dbc0210f4e71c15083c77f9848fa150230ad02effce7e7ad7c07cc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md
+167a98a8f114b44487c5225c0f2eb1ec9af2319246a63416dc9b5e07ffca9a0c  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.diff
+72995802af6084fd30b46487b4d6be8b207cd2656a17ff05b4dc5265daad6de2  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/document-checks.json
+9e5adaa29aa488b5143644770d9d2d06a40c95cb975f37a1a19c40ff348faffc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-research.md
+06eefed88629947c796c005b1c5604e44661ef0e7106d1f3acc5ce4cacd872b2  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-research.md
+b5481fa4518ecf2a359518f981f38e7f862b82b37ad29a2db5910a95d8d62287  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-scenarios.md
+dacff7868e2941ca16697c70a78c6a2b465ca907eef9eeede8db49b1565557f1  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-rebuttal.md
+baab6a24290668b93c600aef8942db5b61869985f2e3d5b96de0fb06b723e471  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-rebuttal.md
+d70635aff4bbdbc37139a92600a074443edeb601a97e2591e443be8d3fb59efa  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-rebuttal.md
+04aefaadb3ae2bed443f4c79e38e7fb71cbf10e158463dc17a537b876d8fd620  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-answer.md
+70a08ccc35912302650d7293708eccd3d4afdf0aa6e9efe331d7f3076b5a8756  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/07-review-and-verification.md
+7c467cfe5b4af8b5259c1090e3808e552533aca5bac54227ee50ee6011f530b5  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/review.md
+
+완료 시 같은 채널에서 @S80-총괄에게 run_id/phase/출력2개 경로/SHA/판정/후보SHA를1회 회신하세요. 요청 발송은 이번 context 대상으로 연결하며 원래 root는 메타데이터에 보존합니다. 후속 회신에는 운영계약 root 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917를 사용하세요.

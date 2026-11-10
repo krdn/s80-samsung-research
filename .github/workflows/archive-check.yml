@@ -1,0 +1,20 @@
+name: Archive checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify preserved source bytes
+        run: sha256sum -c archive/SHA256SUMS
+      - name: Parse JSON artifacts
+        run: |
+          python3 - <<'PYCODE'
+          import json, pathlib
+          paths = list(pathlib.Path('.').rglob('*.json'))
+          for path in paths:
+              json.loads(path.read_text())
+          print(f'Parsed {len(paths)} JSON files')
+          PYCODE
