@@ -1,0 +1,11 @@
+# Credentials and runtime state
+.env
+.env.*
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+*.lock
+__pycache__/
+node_modules/

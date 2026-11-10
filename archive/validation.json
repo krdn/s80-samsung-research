@@ -1,0 +1,339 @@
+{
+  "checked_at": "2026-11-10T12:24:30.619543+00:00",
+  "source_files": 144,
+  "source_and_copy_hash_mismatches": [],
+  "json_files_parsed": 73,
+  "credential_pattern_hits": [],
+  "credential_scan_limit": "Targeted patterns only; not a formal secret-scanner guarantee. No credential stores copied.",
+  "new_guide_broken_links": [],
+  "historical_unresolved_relative_links": [
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "../../HERDR-PROJECT.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/01-data-api.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/03-industry-scenarios.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/04-calculation-examples.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "../verification/official-live-check.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "04-decision.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "../STATE.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/04-lead-evidence.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/06-discussion-record.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.before.md",
+      "target": "samsung-forecast-2026-11/07-review-and-verification.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "../../HERDR-PROJECT.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/01-data-api.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/03-industry-scenarios.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/04-calculation-examples.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "../verification/official-live-check.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "04-decision.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "../STATE.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/04-lead-evidence.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/06-discussion-record.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md",
+      "target": "samsung-forecast-2026-11/07-review-and-verification.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "../../HERDR-PROJECT.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/01-data-api.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/03-industry-scenarios.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/04-calculation-examples.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-research.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-rebuttal.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-rebuttal.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-answer.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "../verification/official-live-check.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "04-decision.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "../STATE.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/04-lead-evidence.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/06-discussion-record.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/07-review-and-verification.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-research.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-scenarios.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917.after.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-answer.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "../../HERDR-PROJECT.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/01-data-api.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/03-industry-scenarios.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/04-calculation-examples.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "../verification/official-live-check.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "04-decision.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "../STATE.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/04-lead-evidence.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/06-discussion-record.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41.before.md",
+      "target": "samsung-forecast-2026-11/07-review-and-verification.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/reviewed-config-snapshot/OPERATING-CONTRACT.md",
+      "target": "workflow-disabled.yaml"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/reviewed-config-snapshot/OPERATING-CONTRACT.md",
+      "target": "runs/bootstrap-20261110/"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "../../HERDR-PROJECT.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/01-data-api.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/03-industry-scenarios.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/04-calculation-examples.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/02-quant-validation.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-research.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-rebuttal.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-rebuttal.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-answer.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "../verification/official-live-check.json"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "04-decision.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "../STATE.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/04-lead-evidence.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/06-discussion-record.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/07-review-and-verification.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-research.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-scenarios.md"
+    },
+    {
+      "file": "docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+      "target": "samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-answer.md"
+    }
+  ],
+  "historical_link_policy": "Original source bytes preserved; snapshot links are relative to canonical location. Context-only app documents refer to original app.",
+  "external_review": "NOT_RUN: documentation/archive only; historical reviews are preserved evidence, not a new review",
+  "ste_lint": "NOT_RUN: docs/conventions/ste100-writing.md missing; command exited 2",
+  "whitespace": "Historical snapshot trailing blanks preserved; new guides checked separately"
+}

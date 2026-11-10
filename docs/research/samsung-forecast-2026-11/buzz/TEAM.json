@@ -1,0 +1,305 @@
+{
+  "project": "S80 삼성전자 방향80 연구",
+  "created_at": "2026-11-10T12:03:25.954711+09:00",
+  "relay": "https://buzz.krdn.kr",
+  "channel_id": "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5",
+  "channel_name": "S80-삼성전자-예측연구",
+  "visibility": "private",
+  "owner_pubkey": "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+  "canonical_document": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md",
+  "baseline_sha256": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c",
+  "schedule": {
+    "timezone_display": "Asia/Seoul",
+    "human": "매주 화·금18:30 KST",
+    "cron_utc": "0 30 9 * * TUE,FRI *",
+    "enabled": true,
+    "reason": "5 registered identities, actual bootstrap artifacts and replies, peer roundtrip and exact SHA pilot review verified; owner workflow activation re-queried",
+    "activated_at": "2026-11-10T03:54:42.835795+00:00",
+    "first_calendar_run": "2026-11-10T18:30:00+09:00",
+    "first_calendar_run_verified": false
+  },
+  "agents": [
+    {
+      "display_name": "S80-총괄",
+      "role": "coordinator",
+      "provider_proposed": "codex",
+      "model_proposed": "gpt-6.1-sol",
+      "effort_proposed": "xhigh",
+      "runtime_proposed": "local",
+      "working_directory": "/home/gon/dev/test/test-samjeonnix",
+      "respond_to_proposed": "owner-only",
+      "same_owner_team_mentions": "must verify after save; do not set anyone",
+      "start_on_app_launch_proposed": true,
+      "concurrent_subprocesses": 1,
+      "history_source": "t4r",
+      "prompt_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/coordinator.md",
+      "prompt_sha256": "85bfe8ce5e12d30daa37894417705cbe602d35827ec288e4adcbaa75218bfb21",
+      "buzz_pubkey": "4d8b5a7277f5ec6b4c5d303e490ca6463c3e7059a96398062444e4223ae8bfe3",
+      "status": "bootstrap_reply_and_artifact_verified",
+      "draft_request": {
+        "accepted": true,
+        "action": "create",
+        "event_id": "8336b038b085605645695dfc6a0a0a8dc9d932272d538649026d687fc0d58d59",
+        "message": "Draft sent to Buzz Desktop for owner review. Nothing changes until the owner saves it.",
+        "request_id": "3483c2ec-8960-47d8-9c69-bb64b04956e8",
+        "saved": false
+      },
+      "user_reported": "정의만 저장되어 있음",
+      "model_selected_ui": "gpt-6.1-sol",
+      "parallelism_selected_ui": 1,
+      "bootstrap": {
+        "path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-coordinator.md",
+        "sha256": "1aba9da9afd36402ebe02bf66833a5ea81ebd20c302d5d4d2c1da449755edcaa",
+        "reply_event_id": "efc3048214fb96be9fb0ff618d1f4855551bd574cb3281e5f98547a144936745",
+        "tags": [
+          [
+            "h",
+            "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5"
+          ],
+          [
+            "e",
+            "44753f1417eaed41134393f08f0ebb70f8597061b592ed3061ce1e5e4dbb7159",
+            "",
+            "root"
+          ],
+          [
+            "e",
+            "cd3055ae31bbec4008da0fde2f1f5a8f185c6f69e8edf9bc73851fc1d1ac9b67",
+            "",
+            "reply"
+          ],
+          [
+            "p",
+            "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858"
+          ],
+          [
+            "auth",
+            "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+            "",
+            "703db9668330b7c10cf4216290d809d32b7aa24176125e6caf2250544a0a48ef3db9fdfc2e5b85203b5a3abbf9745a5c24bcc69c8d1267524aaa1055899e48c6"
+          ]
+        ]
+      },
+      "effort_status": "proposed only; native override not established; provider returned effort unverified",
+      "working_directory_status": "project commands and artifact path verified; harness start cwd is not configured by this setup",
+      "runtime_start_on_app_launch": "true at native creation; first four answered after Desktop restart, review native toggle observed true"
+    },
+    {
+      "display_name": "S80-R1-데이터",
+      "role": "data",
+      "provider_proposed": "codex",
+      "model_proposed": "gpt-6.1-sol",
+      "effort_proposed": "xhigh",
+      "runtime_proposed": "local",
+      "working_directory": "/home/gon/dev/test/test-samjeonnix",
+      "respond_to_proposed": "owner-only",
+      "same_owner_team_mentions": "must verify after save; do not set anyone",
+      "start_on_app_launch_proposed": true,
+      "concurrent_subprocesses": 1,
+      "history_source": "t4s",
+      "prompt_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/data.md",
+      "prompt_sha256": "1a98ca28da3b7363689f40faa986107bf4f4932252f0625fe7cd5981613e4d6e",
+      "buzz_pubkey": "b5d2d6880bc73d3ad5b444c385e8ef3deca4af3b148b8cf7aabddcb6ee9c9775",
+      "status": "bootstrap_reply_and_artifact_verified",
+      "draft_request": {
+        "accepted": true,
+        "action": "create",
+        "event_id": "93d666acd6748d4448c0dad65c2d74c70a9324c8e78616f537cfc1bbfdf09a68",
+        "message": "Draft sent to Buzz Desktop for owner review. Nothing changes until the owner saves it.",
+        "request_id": "66e19e95-8802-4d89-90f2-ab612a3fab37",
+        "saved": false
+      },
+      "model_selected_ui": "gpt-6.1-sol",
+      "parallelism_selected_ui": 1,
+      "bootstrap": {
+        "path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-data.md",
+        "sha256": "6c8f44d2adf4e1c63206aebd0c28d35193d3b686093c8b498f5ac8350a030e21",
+        "reply_event_id": "cd3055ae31bbec4008da0fde2f1f5a8f185c6f69e8edf9bc73851fc1d1ac9b67",
+        "tags": [
+          [
+            "h",
+            "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5"
+          ],
+          [
+            "e",
+            "44753f1417eaed41134393f08f0ebb70f8597061b592ed3061ce1e5e4dbb7159",
+            "",
+            "reply"
+          ],
+          [
+            "p",
+            "4d8b5a7277f5ec6b4c5d303e490ca6463c3e7059a96398062444e4223ae8bfe3"
+          ],
+          [
+            "auth",
+            "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+            "",
+            "5ad982c17767849ea85d8a5e18fd6b40873e164eb15ae4b14d1bb5b3ddf309ab6d3e3e1e998adccabe52adc133b496c19ddc4619aad6472e2725f90194d84511"
+          ]
+        ]
+      },
+      "effort_status": "proposed only; native override not established; provider returned effort unverified",
+      "working_directory_status": "project commands and artifact path verified; harness start cwd is not configured by this setup",
+      "runtime_start_on_app_launch": "true at native creation; first four answered after Desktop restart, review native toggle observed true"
+    },
+    {
+      "display_name": "S80-R2-퀀트",
+      "role": "quant",
+      "provider_proposed": "codex",
+      "model_proposed": "gpt-6.1-sol",
+      "effort_proposed": "xhigh",
+      "runtime_proposed": "local",
+      "working_directory": "/home/gon/dev/test/test-samjeonnix",
+      "respond_to_proposed": "owner-only",
+      "same_owner_team_mentions": "must verify after save; do not set anyone",
+      "start_on_app_launch_proposed": true,
+      "concurrent_subprocesses": 1,
+      "history_source": "t4t",
+      "prompt_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/quant.md",
+      "prompt_sha256": "bde8afa49848d295236207ce6699ce0c13d725d485c36836617e04522ef2daa2",
+      "buzz_pubkey": "699ae7aed2d0b586228e7e293a0bb28c17f8009a46fcb8762d814743cab4c915",
+      "status": "bootstrap_reply_and_artifact_verified",
+      "model_selected_ui": "gpt-6.1-sol",
+      "parallelism_selected_ui": 1,
+      "bootstrap": {
+        "path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-quant.md",
+        "sha256": "c13b5676dbaef840df45f47fef62b5480af539c665ce0bb5ed7f9b0f24e49c58",
+        "reply_event_id": "1f6c54cae2bf015f2c145ebbace739ebb1a7a36acce359ddcd66d074a97cf919",
+        "tags": [
+          [
+            "h",
+            "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5"
+          ],
+          [
+            "e",
+            "f6625047a46b59c72cd394def2177b30cb168a628b30a30922b2ce34baee6572",
+            "",
+            "reply"
+          ],
+          [
+            "p",
+            "4d8b5a7277f5ec6b4c5d303e490ca6463c3e7059a96398062444e4223ae8bfe3"
+          ],
+          [
+            "auth",
+            "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+            "",
+            "842571e102b6562ee42a23ec1a4b31d31f752514c708c5587131a890b26af4fd45860664fee1f243e8022ab7ccfaf67fa5efbd3c2a73999c59ef644d15567c15"
+          ]
+        ]
+      },
+      "effort_status": "proposed only; native override not established; provider returned effort unverified",
+      "working_directory_status": "project commands and artifact path verified; harness start cwd is not configured by this setup",
+      "runtime_start_on_app_launch": "true at native creation; first four answered after Desktop restart, review native toggle observed true"
+    },
+    {
+      "display_name": "S80-R3-산업",
+      "role": "industry",
+      "provider_proposed": "codex",
+      "model_proposed": "gpt-6.1-sol",
+      "effort_proposed": "xhigh",
+      "runtime_proposed": "local",
+      "working_directory": "/home/gon/dev/test/test-samjeonnix",
+      "respond_to_proposed": "owner-only",
+      "same_owner_team_mentions": "must verify after save; do not set anyone",
+      "start_on_app_launch_proposed": true,
+      "concurrent_subprocesses": 1,
+      "history_source": "t4v",
+      "prompt_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/industry.md",
+      "prompt_sha256": "1818b8812ca3f63b6e112754cb9956942c97a35c09ead7675565dffac0b8b7dc",
+      "buzz_pubkey": "43fcff9a1b70e073eab37a77ae015dba2ce7026f232bb910eea482900fd86ac1",
+      "status": "bootstrap_reply_and_artifact_verified",
+      "model_selected_ui": "gpt-6.1-sol",
+      "parallelism_selected_ui": 1,
+      "effort_status": "proposed only; native override not established; provider returned effort unverified",
+      "bootstrap": {
+        "path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-industry.md",
+        "sha256": "0e804ecbd5fb8c6164b90614d3fe1a08e427834c1b189820209cbe6f7e2055c0",
+        "reply_event_id": "af599483f39ff1a0fa35bea6a6d5af86ab14d9846129c74ef3ac533b065808f2",
+        "tags": [
+          [
+            "h",
+            "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5"
+          ],
+          [
+            "e",
+            "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+            "",
+            "reply"
+          ],
+          [
+            "p",
+            "4d8b5a7277f5ec6b4c5d303e490ca6463c3e7059a96398062444e4223ae8bfe3"
+          ],
+          [
+            "auth",
+            "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+            "",
+            "2db583b45d6ac585a85ae75a9740550373190e393f888568dee34c487bb8374efeeb8434d6fac47aa62c753f6668a163140e8f492fa598eefe53931de96645a6"
+          ]
+        ]
+      },
+      "working_directory_status": "project commands and artifact path verified; harness start cwd is not configured by this setup",
+      "runtime_start_on_app_launch": "true at native creation; first four answered after Desktop restart, review native toggle observed true"
+    },
+    {
+      "display_name": "S80-외부검토",
+      "role": "review",
+      "provider_proposed": "claude",
+      "model_proposed": "claude-opus-5-5",
+      "effort_proposed": "high",
+      "runtime_proposed": "local",
+      "working_directory": "/home/gon/dev/test/test-samjeonnix",
+      "respond_to_proposed": "owner-only",
+      "same_owner_team_mentions": "must verify after save; do not set anyone",
+      "start_on_app_launch_proposed": true,
+      "concurrent_subprocesses": 1,
+      "history_source": "external-review",
+      "prompt_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/review.md",
+      "prompt_sha256": "7c467cfe5b4af8b5259c1090e3808e552533aca5bac54227ee50ee6011f530b5",
+      "buzz_pubkey": "75e1c1fe9bd1f3337d5d4efa98c9d427bb88102cf01d160294c21e02390449e7",
+      "status": "bootstrap_reply_and_artifact_verified",
+      "model_selected_ui": "opus (picker label: Opus 5.5)",
+      "parallelism_selected_ui": 1,
+      "effort_status": "proposed only; native override not established; provider returned effort unverified",
+      "model_id_provider_returned": "UNVERIFIED",
+      "session_start_cwd_observed": "/home/gon/.buzz",
+      "project_commands_cwd_verified": "/home/gon/dev/test/test-samjeonnix",
+      "bootstrap": {
+        "path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-review.md",
+        "sha256": "45d39e5c84335e57fefd6e43638eb1d7f674d78856a1167deb855ac99e478e30",
+        "reply_event_id": "3fe4039ef0ee700962eedcaf7731a05176971fc8ecb43e127e1c2816861c5853",
+        "tags": [
+          [
+            "h",
+            "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5"
+          ],
+          [
+            "e",
+            "7f8e9605ab006caf19d54b95ae0d9aac8da16b0fd49f23ad7ccec95e4d96a13e",
+            "",
+            "reply"
+          ],
+          [
+            "p",
+            "4d8b5a7277f5ec6b4c5d303e490ca6463c3e7059a96398062444e4223ae8bfe3"
+          ],
+          [
+            "auth",
+            "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+            "",
+            "17bec38527cee53566f5bca34850406be0bfc882cb79a70fb8c69a3ecae99581af997fd502a4ba87f77a3c4b95bcbc6578b4103ca98f925aeb94065aa0e877b9"
+          ]
+        ]
+      },
+      "working_directory_status": "project commands and artifact path verified; harness start cwd is not configured by this setup",
+      "runtime_start_on_app_launch": "true at native creation; first four answered after Desktop restart, review native toggle observed true"
+    }
+  ],
+  "workflow_id": "05956bbb-d982-47c1-9297-1aaa4b35a7bc",
+  "status": "active_schedule_pilot_pass",
+  "preserve_other_agents": true,
+  "performance_80_percent": "UNVERIFIED",
+  "pilot_status": "PASS_SCOPE: peer roundtrip, files and exact SHA operational handover review; canonical research and forecast performance not validated",
+  "pilot_result_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/pilot-result.md"
+}

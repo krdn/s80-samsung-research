@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-11-10T04:04:44.964312+00:00",
+  "dedicated_identities": 5,
+  "owner_plus_bots_members": 6,
+  "bootstrap_artifacts_and_matching_pubkey_replies": 5,
+  "peer_roundtrip_and_exact_candidate_sha_review": "PASS_SCOPE",
+  "native_workflow_enabled": true,
+  "cron_utc": "0 30 9 * * TUE,FRI *",
+  "canvas_readback_matches": true,
+  "new_run_requests_and_fixed_root": "VERIFIED",
+  "frozen_input_integrity": true,
+  "controlled_document_links": 11,
+  "baseline_preserved": true,
+  "first_attempt": "BLOCKED by operator metadata change; exact restore and fresh-run recovery recorded",
+  "research_refresh_completed": false,
+  "first_calendar_run": "NOT_RUN",
+  "direction_80_percent": "UNVERIFIED",
+  "provider_returned_model_effort": "UNVERIFIED",
+  "os_reboot_resume": "NOT_RUN",
+  "recovery_data_role_input_checks": "10/10 match and official source research observed",
+  "research_refresh_started": true
+}

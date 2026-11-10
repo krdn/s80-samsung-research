@@ -1,0 +1,140 @@
+{
+  "run_id": "cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a",
+  "owner_request_event_id": "b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a",
+  "trigger_event_id": "b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a",
+  "thread_root_event_id": "b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a",
+  "channel_id": "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5",
+  "phase": "research",
+  "status": "BLOCKED_INPUT_SHA_MISMATCH",
+  "started_at": "2026-11-10T03:56:26.143986+00:00",
+  "deadline_at": "2026-11-10T05:25:02+00:00",
+  "baseline": {
+    "path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md",
+    "sha256": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c",
+    "before_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/versions/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a.before.md"
+  },
+  "inputs": {
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/TEAM.json": "777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/OPERATING-CONTRACT.md": "22bc091423e62def669816f1febf6a758c387d58117d74c2f30f73dec34e1d66",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/00-brief.md": "bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/06-discussion-record.md": "f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-lead-evidence.md": "2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-calculation-examples.json": "5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca"
+  },
+  "phases": {
+    "data-research": {
+      "phase": "research",
+      "role": "data",
+      "status": "BLOCKED",
+      "inputs": {
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/TEAM.json": "777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/OPERATING-CONTRACT.md": "22bc091423e62def669816f1febf6a758c387d58117d74c2f30f73dec34e1d66",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/00-brief.md": "bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/06-discussion-record.md": "f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-lead-evidence.md": "2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-calculation-examples.json": "5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/01-data-api.md": "f9b7b93c0b5853ecec68abf5cf4408d5b98d91b95e3628ccfb4b7b34c5b2f189",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/01-data-rebuttal.md": "2798598c4c2fcc73903ec4483adde16e779e13aac5103f2a50f322f3f95ed532",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/data.md": "1a98ca28da3b7363689f40faa986107bf4f4932252f0625fe7cd5981613e4d6e"
+      },
+      "output": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a/data-research.md",
+      "pubkey": "b5d2d6880bc73d3ad5b444c385e8ef3deca4af3b148b8cf7aabddcb6ee9c9775",
+      "thread_root_event_id": "b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a",
+      "requested_at": "2026-11-10T03:56:26.143986+00:00",
+      "request_event_id": "43be6885442c7ad264f90e79ff265fc4bf9a9b43354dfc5c204023d91a041c06",
+      "delivery": {
+        "accepted": true,
+        "event_id": "43be6885442c7ad264f90e79ff265fc4bf9a9b43354dfc5c204023d91a041c06",
+        "mention_pubkeys": [
+          "b5d2d6880bc73d3ad5b444c385e8ef3deca4af3b148b8cf7aabddcb6ee9c9775"
+        ],
+        "message": ""
+      },
+      "request_content_sha256": "3c32a3c7bffd839c53f1c55d286f5e72079a1544721c46589d44721de3242657",
+      "reason": "INPUT_SHA_MISMATCH",
+      "reply_event_id": "bfc83a9985e14e7eeb5906edc8455e872d99b38574c8b8d9933b5e5d64d85117",
+      "completed_at": "2026-11-10T03:59:38.107292+00:00",
+      "worker_reported_team_sha256": "a9faf84be10f133c0a2cfbad2459e54b6a8f7e65599f7967da6587c91e6c7c4c",
+      "artifact_exists": false
+    },
+    "quant-research": {
+      "phase": "research",
+      "role": "quant",
+      "status": "BLOCKED",
+      "inputs": {
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/TEAM.json": "777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/OPERATING-CONTRACT.md": "22bc091423e62def669816f1febf6a758c387d58117d74c2f30f73dec34e1d66",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/00-brief.md": "bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/06-discussion-record.md": "f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-lead-evidence.md": "2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-calculation-examples.json": "5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/02-quant-validation.md": "f41330c27d57b873b1d2b88d1ac7ec0a684dee0ff87c7f8823a655f77f20ac7d",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/02-quant-rebuttal.md": "3f513a5c52621f0cbd564befd95e7ef95296a8fb564148ce922fc33c05459edd",
+        "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/quant.md": "bde8afa49848d295236207ce6699ce0c13d725d485c36836617e04522ef2daa2"
+      },
+      "output": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a/quant-research.md",
+      "pubkey": "699ae7aed2d0b586228e7e293a0bb28c17f8009a46fcb8762d814743cab4c915",
+      "thread_root_event_id": "b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a",
+      "requested_at": "2026-11-10T03:56:26.143986+00:00",
+      "request_event_id": "65e1a1602fb6db081dab43baf2118fc8e03368f3872db3e66f4e91e0ff66e1bf",
+      "delivery": {
+        "accepted": true,
+        "event_id": "65e1a1602fb6db081dab43baf2118fc8e03368f3872db3e66f4e91e0ff66e1bf",
+        "mention_pubkeys": [
+          "699ae7aed2d0b586228e7e293a0bb28c17f8009a46fcb8762d814743cab4c915"
+        ],
+        "message": ""
+      },
+      "request_content_sha256": "dea81ccf0a2280759c440485a73f499ba3a25510e4c60afa1c25a66c525cb9ed",
+      "reason": "INPUT_SHA_MISMATCH",
+      "reply_event_id": "f2b426aaf598304e70c5eb2be962381f042ba72e1648e115759aa74c3af5a238",
+      "completed_at": "2026-11-10T03:59:38.107292+00:00",
+      "worker_reported_team_sha256": "a9faf84be10f133c0a2cfbad2459e54b6a8f7e65599f7967da6587c91e6c7c4c",
+      "artifact_exists": true,
+      "output_sha256": "f7ae8277cecb09c89ce90d554466d33b18aca5ef0f3d5d02ddeaedf64f48aa9b"
+    }
+  },
+  "monthly_first_run": true,
+  "monthly_review_scope": "방법론·자료 신선도·반복 실패: data/quant 독립조사와 후속 산업/교차토론에 포함",
+  "authority": {
+    "workflow_owner_pubkey": "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+    "workflow_id": "05956bbb-d982-47c1-9297-1aaa4b35a7bc",
+    "relay_event_pubkey": "0936996924a66ea79d79575bf093f98621448bcf49714c12abf816ddc9088187",
+    "verified_via": "공식 CLI workflows get·social event·Canvas 대조; 별도 암호학 검증 미실행",
+    "calendar_schedule_firing": "UNVERIFIED; 현재 12:55 KST 트리거 수신은 18:30 달력 실행 증거가 아님"
+  },
+  "performance_80_percent": "UNVERIFIED",
+  "last_run": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/manifest.json",
+  "waiting_for": [],
+  "active_specialists": 0,
+  "updated_at": "2026-11-10T04:02:46.879893+00:00",
+  "reason": "INPUT_SHA_MISMATCH",
+  "closed_at": "2026-11-10T03:59:38.107292+00:00",
+  "coordinator_observed_team_sha256": "777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab",
+  "resume_requirement": "소유자 승인 재개: 새 실제 요청 이벤트·새 run·각 실행 환경의 입력 SHA 재검증. 같은 run/phase 자동 재시도 금지。",
+  "remaining_phases": [
+    "industry-research",
+    "data-rebuttal",
+    "quant-rebuttal",
+    "industry-answer",
+    "candidate",
+    "document-check",
+    "external-review"
+  ],
+  "conflict_cause": "OWNER_REPORTED: 운영자가 first_refresh를 TEAM에 추가; 별도 evidence로 옮기고 원래 바이트 복원",
+  "canonical_changed": false,
+  "recovery_request_event_id": "c662ecb82219b52c1217375a5f5eed6d4a62eaa91ef6b7f0c54dfa23b5a78aa3",
+  "recovery_contract_sha256_announced": "95020c360ab63652a8ccf76cf821a081f3774773ebb66aaf17b76f67f9b3dcb9",
+  "next_run_frozen_contract_sha256": "4c62ea31fed9fb2ec4c0bd94fc45095876dc1bd024f9f8eba3c3ca9575df33d0",
+  "final_delivery": {
+    "accepted": true,
+    "event_id": "6a023f53031bc02a962fc488a31f12481bc75bd28e505bc95673dd7c1b293229",
+    "mention_pubkeys": [
+      "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858"
+    ],
+    "message": ""
+  }
+}

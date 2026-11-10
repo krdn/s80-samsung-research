@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-11-10T00:52:01.585131+09:00",
+  "status": "PASS",
+  "scope": "document structure, local link existence, numerical illustrations, external response identity; not API or market performance",
+  "markdown_documents": 14,
+  "local_links_checked": 59,
+  "issues": [],
+  "wilson_examples_recomputed": 6,
+  "selective_prediction_example": "40/50=.8,50/250=.2,40/250=.16",
+  "external_review": {
+    "requested_model": "claude-opus-5-5",
+    "returned_models": [
+      "claude-opus-5-5"
+    ],
+    "effort_requested": "high",
+    "effort_returned_metadata": "not provided",
+    "success": true,
+    "findings": 13,
+    "accepted": 12,
+    "rejected": 1,
+    "revised_version_checked_by": "lead direct review; no second external call"
+  },
+  "ste_lint": {
+    "status": "UNAVAILABLE",
+    "exit_code": 2,
+    "reason": "docs/conventions/ste100-writing.md missing"
+  },
+  "market_forecasts_executed": 0,
+  "model_training": "NOT_RUN",
+  "authenticated_api_calls": "NOT_RUN",
+  "app_tests": "NOT_RUN - documentation only",
+  "git_tracked_changes": [
+    "docs/STATE.md"
+  ],
+  "sha256": {
+    "docs/research/samsung-direction-80-research-2026-11.md": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c",
+    "docs/STATE.md": "2bc56845fda8cdd3ec9ebb7562158bd058f0fb7f1d67bcf24661b24a255a6f08",
+    "docs/research/samsung-forecast-2026-11/00-brief.md": "bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0",
+    "docs/research/samsung-forecast-2026-11/01-data-api.md": "f9b7b93c0b5853ecec68abf5cf4408d5b98d91b95e3628ccfb4b7b34c5b2f189",
+    "docs/research/samsung-forecast-2026-11/01-data-rebuttal.md": "2798598c4c2fcc73903ec4483adde16e779e13aac5103f2a50f322f3f95ed532",
+    "docs/research/samsung-forecast-2026-11/02-quant-rebuttal.md": "3f513a5c52621f0cbd564befd95e7ef95296a8fb564148ce922fc33c05459edd",
+    "docs/research/samsung-forecast-2026-11/02-quant-validation.md": "f41330c27d57b873b1d2b88d1ac7ec0a684dee0ff87c7f8823a655f77f20ac7d",
+    "docs/research/samsung-forecast-2026-11/03-industry-rebuttal.md": "4393109803545d78cb11e204ce27e3247d382d213a1cd940ce51f54c46aac746",
+    "docs/research/samsung-forecast-2026-11/03-industry-scenarios.md": "6fcdd15f8e584b003b90acfa782d461fac4ba107c81c02fcfa08f6bc452f1821",
+    "docs/research/samsung-forecast-2026-11/04-lead-evidence.md": "2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41",
+    "docs/research/samsung-forecast-2026-11/05-discussion-packet.md": "087051e8dd213ea413208e841fa177b5f84f5af79b9881141d8fcaa085731f84",
+    "docs/research/samsung-forecast-2026-11/06-discussion-record.md": "f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc",
+    "docs/research/samsung-forecast-2026-11/07-external-review.md": "17564248028ac9e644fdbe6000c641e66778f3b8743a47e2feabb3a8275b745e",
+    "docs/research/samsung-forecast-2026-11/07-review-and-verification.md": "70a08ccc35912302650d7293708eccd3d4afdf0aa6e9efe331d7f3076b5a8756",
+    "docs/research/samsung-forecast-2026-11/04-calculation-examples.json": "5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca",
+    "docs/research/samsung-forecast-2026-11/07-external-review-response.json": "be3debb3db27f48aea37fa9ab5d7e382b912048a447e89d1e4418cf9e3d5e98d"
+  },
+  "repair": "Removed trailing whitespace from rendered external review; raw JSON preserved"
+}

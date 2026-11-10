@@ -1,0 +1,60 @@
+{
+  "kind": "illustration_only_not_market_results",
+  "computed_on": "2026-11-10 Asia/Seoul",
+  "assumption": "independent Bernoulli observations; not a sufficient stock-return inference method",
+  "z": 1.959963984540054,
+  "formula": "center=(p+z^2/(2n))/(1+z^2/n); half=z*sqrt(p*(1-p)/n+z^2/(4n^2))/(1+z^2/n)",
+  "reference": "https://itl.nist.gov/div898/software/dataplot/refman2/auxillar/agrecoul.htm",
+  "examples": [
+    {
+      "correct": 16,
+      "n": 20,
+      "observed_accuracy": 0.8,
+      "wilson_two_sided_95_lower": 0.5839825677481064,
+      "wilson_two_sided_95_upper": 0.919342337420202
+    },
+    {
+      "correct": 80,
+      "n": 100,
+      "observed_accuracy": 0.8,
+      "wilson_two_sided_95_lower": 0.7111708344068411,
+      "wilson_two_sided_95_upper": 0.8666330666689676
+    },
+    {
+      "correct": 200,
+      "n": 250,
+      "observed_accuracy": 0.8,
+      "wilson_two_sided_95_lower": 0.7460440266329055,
+      "wilson_two_sided_95_upper": 0.8448759936698279
+    },
+    {
+      "correct": 215,
+      "n": 250,
+      "observed_accuracy": 0.86,
+      "wilson_two_sided_95_lower": 0.8115202816735541,
+      "wilson_two_sided_95_upper": 0.8975837426897257
+    },
+    {
+      "correct": 220,
+      "n": 250,
+      "observed_accuracy": 0.88,
+      "wilson_two_sided_95_lower": 0.8338618921256289,
+      "wilson_two_sided_95_upper": 0.9146368002578331
+    },
+    {
+      "correct": 400,
+      "n": 500,
+      "observed_accuracy": 0.8,
+      "wilson_two_sided_95_lower": 0.7627108946948261,
+      "wilson_two_sided_95_upper": 0.8327145010282427
+    }
+  ],
+  "selective_prediction_example": {
+    "scheduled_days": 250,
+    "predicted_days": 50,
+    "correct_predictions": 40,
+    "accuracy_when_predicted": 0.8,
+    "prediction_coverage": 0.2,
+    "correct_over_all_scheduled": 0.16
+  }
+}

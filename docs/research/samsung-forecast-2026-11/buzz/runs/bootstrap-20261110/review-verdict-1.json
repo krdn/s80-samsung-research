@@ -1,0 +1,25 @@
+{
+  "run_id": "bootstrap-20261110",
+  "phase": "review-1",
+  "request_event_id": "24cbe20db5832c55e3594bb099972876424bec14bac98b83d6ddf573d80d67fa",
+  "thread_root_event_id": "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+  "candidate_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/candidate.md",
+  "candidate_sha256": "b65f2bbc71615475cf0be504dacec9c4f219f6b034f442ecae999a06c728f229",
+  "input_sha_all_match": true,
+  "inputs_checked": 13,
+  "verdict": "PASS",
+  "unresolved_findings": [],
+  "non_blocking_findings": [
+    {
+      "id": "L1",
+      "severity": "low",
+      "location": "candidate.md 모델과 실행 환경: 세션 초기 cwd 문장",
+      "summary": "초기 cwd /home/gon/.buzz 기록은 총괄·데이터·외부검토만 있고, 퀀트·산업은 기록하지 않았음",
+      "minimal_fix": "총괄·데이터·외부검토 bootstrap은 세션 초기 cwd /home/gon/.buzz를 기록했다. 퀀트·산업은 프로젝트 명령 cwd만 기록했다."
+    }
+  ],
+  "review_2_required": false,
+  "model_verification": "UNVERIFIED (harness claims claude-opus-5-5; no provider-returned metadata)",
+  "performance_80_percent": "UNVERIFIED",
+  "scope": "pilot handover document only; not canonical research review"
+}

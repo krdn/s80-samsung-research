@@ -1,0 +1,41 @@
+{
+  "status": "PASS_SCOPE",
+  "checked_at": "2026-11-10T10:50:15.787696+00:00",
+  "candidate_sha256": "2ade10a204dbc0210f4e71c15083c77f9848fa150230ad02effce7e7ad7c07cc",
+  "baseline_sha256": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c",
+  "relative_link_count": 20,
+  "broken_links": [],
+  "table_adjacent_rows_checked": 64,
+  "wilson_lower_percent": [
+    [
+      16,
+      20,
+      58.4
+    ],
+    [
+      80,
+      100,
+      71.12
+    ],
+    [
+      200,
+      250,
+      74.6
+    ],
+    [
+      215,
+      250,
+      81.15
+    ]
+  ],
+  "quant_example_output": "threshold 213\n0 0.021197472\n0.5 0.123624656\n0.95 0.435511936\n0.065501831 0.934498169\n",
+  "numeric_scope": "가상 계산만 재실행; 배당 수치는 역할별 공식 IR 대조 기록 재사용, 총액의 주식수 재검산 미실시",
+  "lint": "NOT_RUN: 이번 run에서 확인된 저장소 문체 기준 파일 부재; 반복 실패 호출 생략",
+  "performance_80_percent": "UNVERIFIED",
+  "monthly_review": "PARTIAL",
+  "limits": [
+    "외부 URL 이번 총괄 재접속 없음; 역할 보고서의 확인 시각과 범위 인용",
+    "학습·백테스트·모의 전체 오류율/검정력 NOT_RUN",
+    "후보 상대 링크는 canonical 설치 위치 기준; candidate.md 위치의 미리보기 한계"
+  ]
+}

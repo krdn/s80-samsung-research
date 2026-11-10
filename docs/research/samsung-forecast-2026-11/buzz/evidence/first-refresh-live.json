@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-11-10T04:05:55.015335+00:00",
+  "status": "RESEARCH_IN_PROGRESS",
+  "cause": "Operator added first_refresh metadata to TEAM after coordinator pinned the input hash. Both specialists correctly blocked. Exact TEAM bytes restored; live status moved to separate evidence.",
+  "restored_team_sha256": "777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab",
+  "old_run_id": "cycle-20261110-b8245cac7ba89f6f52faacb2c2c268cfe622e5aaec6f450abdaf422a284d927a",
+  "specialists_terminated_with_blocked_replies": [
+    "bfc83a9985e14e7eeb5906edc8455e872d99b38574c8b8d9933b5e5d64d85117",
+    "f2b426aaf598304e70c5eb2be962381f042ba72e1648e115759aa74c3af5a238"
+  ],
+  "completed": false,
+  "direction_80_percent": "UNVERIFIED",
+  "recovery_workflow_message_event_id": "1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41",
+  "recovery_coordinator_receipt_observed": true,
+  "recovery_frozen_inputs_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/evidence/recovery-frozen-inputs.json",
+  "recovery_run_id": "cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41",
+  "run_manifest": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-1a1c2c91b8f227cb25759ceaf5bbc073d17fe664e291e1a08e9f1d60250f0f41/manifest.json",
+  "specialist_request_ids": [
+    "22023f2cd6933176372dae2553501264e7a0b6f67ab3b74bf932ada3b704ef63",
+    "81050b01eca34bdc62c1e4ee48e06c78baef423dff85d647db0001c5809894dd"
+  ],
+  "fixed_root_matches": true,
+  "frozen_input_hashes_match": true,
+  "research_update_completed": false,
+  "future_calendar_trigger_verified": false,
+  "data_role_input_checks": "10/10 match and STOP absent observed in native live ACP transcript",
+  "data_role_official_source_research_observed": true,
+  "quant_role_input_checks": "10/10 match and original-paper/methodology review observed in native live ACP transcript"
+}

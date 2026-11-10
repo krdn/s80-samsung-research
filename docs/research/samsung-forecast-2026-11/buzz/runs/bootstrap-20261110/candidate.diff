@@ -1,0 +1,49 @@
+--- /dev/null
++++ candidate.md
+@@ -0,0 +1,46 @@
++# S80 운영 시범 인계문서
++
++판정: 외부검토 대기. 소유자는 “연구 정본 교체 후보가 아닌 운영 시범 인계문서”를 요청했다.
++run_id는 `bootstrap-20261110`, 단계는 `pilot-integration`이다. 기준연구 승격·전체 연구·웹 재조사·예약 변경은 수행하지 않았다.
++
++## 사실과 핵심 쟁점
++
++| 역할 | 인계한 쟁점 | 출처 |
++| --- | --- | --- |
++| 데이터 | 07:40까지 수신한 원자료를 동결한다. 07:55까지 파생 처리만 허용한다. 당시 버전·공급 시각·ML 이용권은 별도 검증이 필요하다. | [data bootstrap](bootstrap-data.md) |
++| 퀀트 | 예정일 전체 분모 A_all을 보존한다. 잠재 적중 상한에는 정시 예측을 동결한 U_on만 넣는다. 보류·누락·지연·확인된 보합을 잠재 적중으로 세지 않는다. | [quant bootstrap](bootstrap-quant.md) |
++| 산업 | 산업 가설 반증, 다음날 방향 오답, M3 추가 가치 실패를 구분한다. 산업 호조만으로 다음날 방향 우위를 주장할 수 없다. | [industry bootstrap](bootstrap-industry.md) |
++
++추론: 세 쟁점은 입력 시점·평가 분모·사건의 추가 가치를 각각 제한한다. 이를 읽고 합의한 사실은 통계적 성능 증거가 아니다.
++반론: 다음날 오답 하나로 장기 산업 가설 전체를 기각할 수 없으며, 최신 자료 조회 성공만으로 과거 가용성을 증명할 수도 없다.
++제안: 후속 정기 연구는 소유자 승인 후 같은 시점·분모 계약을 유지하며 별도로 검증한다.
++
++## 모델과 실행 환경
++
++[TEAM.json](../../TEAM.json)의 Codex UI 기록은 gpt-6.1-sol, 외부검토 UI 기록은 Opus 5.5다. 제안 effort xhigh/high와 UI 선택은 제공자 반환 증거가 아니다.
++[총괄 bootstrap](bootstrap-coordinator.md)은 로컬 기본 설정 gpt-6-astra/medium을 관찰했다. 세션별 override·실제 반환 모델/effort는 미검증이다.
++[외부검토 bootstrap](bootstrap-review.md)도 실제 제공자 반환 모델/effort를 미검증으로 남겼다. 모델·설정은 변경하지 않았다.
++
++세션 초기 cwd는 `/home/gon/.buzz`였다. 각 bootstrap에 기록한 프로젝트 명령 cwd는 `/home/gon/dev/test/test-samjeonnix`, 호스트는 `krdn-lenovo`다.
++이번 총괄 명령도 지정 프로젝트 workdir에서 실행했다. 초기 cwd와 프로젝트별 명령 cwd를 구분하며 런타임 cwd 설정 적용은 단정하지 않는다.
++
++## 통신과 라우팅
++
++[manifest](manifest.json)의 owner_request_event_id는 `498e2cc26a5199e8f65e92ea1efe90d1de1655152f6e6b417b24933f34eb5282`다.
++현재 pilot thread_root_event_id는 `2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789`로 고정했다.
++초기 총괄 bootstrap 회신은 원래 총괄 요청 스레드와 달랐다. 이 THREAD_MISMATCH를 [라우팅 증거](pilot-routing-evidence.json)와 manifest에 보존하며 최초 bootstrap 전체 라우팅 PASS를 주장하지 않는다.
++
++team-probe 요청 `a62c48f08a50bf8e0cbe20666b39e7869136877c123435c9a6be08a531660a66`과 회신 `d36b458298ac31b40f0b7b61f5e45b87b3d4382a1277ded14089d360d3225d95`의 실제 root는 고정값과 같다.
++회신 서명 주체는 TEAM quant 공개키와 같고 요청 부모도 일치한다. [quant-probe](quant-probe.md)의 입력·산출물 SHA를 재계산했다.
++따라서 이 팀 요청·회신·파일 연결만 PASS다. [실제 회신 증거](team-probe-reply-evidence.json)를 보존했다. R2 요청은 재발행하지 않았다.
++외부검토 요청과 회신의 root·후보 SHA는 별도로 검사해야 한다.
++
++## 변경과 한계
++
++다섯 bootstrap과 기준연구의 SHA를 재계산해 기존 기록과 일치함을 확인했다. 기준연구 SHA256은 `107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c`다.
++이번 변경은 pilot 인계문서·증거·검사·manifest 연결이다. 정본·기존 역할 연구·앱·DB·권한·예약은 변경하지 않았다.
++
++정기갱신·재부팅 후 재개·공식 원문 신규 검증·실제 제공자 모델·방향80%는 미검증이다. A_all·조건부 적중률·보합·보류·미평가 정책을 보존한다.
++새 학습·백테스트·전향 실험은 수행하지 않았다. 초기 라우팅 결함이 남으므로 운영 시범의 부분 성공과 전체 연구 성능을 구분한다.
++
++출처 범위: 위 로컬 bootstrap·TEAM·실제 Buzz 이벤트와 [운영 계약](../../OPERATING-CONTRACT.md). 원문 웹 연구를 다시 수행하지 않았다.

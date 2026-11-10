@@ -1,0 +1,59 @@
+{
+  "run_id": "cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917",
+  "phase": "review-1",
+  "reviewer": "S80-외부검토",
+  "reviewer_pubkey": "75e1c1fe9bd1f3337d5d4efa98c9d427bb88102cf01d160294c21e02390449e7",
+  "request_event_id": "cd7bba9971240dbf0cfd1b62ec62012e62319b6b8bd4e2467a0b0f512ecdd1dd",
+  "candidate_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/candidate.md",
+  "candidate_sha256": "2ade10a204dbc0210f4e71c15083c77f9848fa150230ad02effce7e7ad7c07cc",
+  "candidate_diff_sha256": "167a98a8f114b44487c5225c0f2eb1ec9af2319246a63416dc9b5e07ffca9a0c",
+  "inputs_verified": "19/19 sha256 match; diff regenerated and matched",
+  "verdict": "PASS",
+  "verdict_scope": "문서 후보 정합성. 통계법 채택·실제 사전등록 완료·방향80% 실증 아님",
+  "unresolved_findings": [],
+  "non_blocking_observations": [
+    {
+      "id": "O1",
+      "location": "candidate.md:109,145 (diff 밖 기존 문장)",
+      "summary": "White RC 지정과 rolling/expanding 병기. Hansen SPA의 recursive 제외는 확인, RC 적용 범위는 이번 run 미확인",
+      "optional_fix": "표 1행에 재학습 방식과 다중비교 검정 적용 범위 함께 등록 문구 추가"
+    },
+    {
+      "id": "O2",
+      "location": "candidate.md:193,195",
+      "summary": "등록 미완료가 조건문으로 표현됨. 195행으로 현재 미검증 의미는 충분"
+    },
+    {
+      "id": "O3",
+      "location": "candidate.md:196-198",
+      "summary": "빈 줄2개 뒤 기존 판정 표가 새 근거 문단에 붙어 보이는 서식 관찰"
+    }
+  ],
+  "dividend_check": {
+    "source": "https://www.samsung.com/global/ir/stock-information/shareholder-return/",
+    "checked_at_utc": "2026-11-10T10:55Z(approx)",
+    "result": "보통·우선 각 KRW 4,601, record date 2026-09-30, total KRW 30.0 trillion 확인; 지급일·게시시각 표시 없음",
+    "limits": "현행 페이지 한정; 당시 버전·공개시각·권리·주식수 재검산 미확인"
+  },
+  "model_verification": {
+    "status": "UNVERIFIED",
+    "self_reported_model_id": "claude-opus-5-5",
+    "provider_returned_model": "unavailable in this session",
+    "note": "중앙 설정 dry-run 일치는 요청 설정이며 반환 증거 아님. 별도 리뷰 호출·대체 모델·effort 변경 없음"
+  },
+  "performance_80_percent": "UNVERIFIED",
+  "monthly_review": "PARTIAL",
+  "not_run": [
+    "학습",
+    "백테스트",
+    "전체 오류율/검정력 모의",
+    "문체 lint",
+    "계산 재실행(검사 파일 값 대조만)"
+  ],
+  "files_modified": [
+    "external-review-1.md",
+    "review-verdict-1.json"
+  ],
+  "external_review_1_sha256": "5c2e57903770dff53aa9948f4ae43516a6256cf0c835f1af88e280d9d74a4a63",
+  "written_at_utc": "2026-11-10T10:58Z"
+}

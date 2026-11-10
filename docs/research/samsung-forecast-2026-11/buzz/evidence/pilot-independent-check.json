@@ -1,0 +1,13 @@
+{
+  "scope": "identity, messages, artifacts and pilot handover review only",
+  "same_channel": true,
+  "pinned_root": "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+  "coordinator_quant_roundtrip": true,
+  "coordinator_review_roundtrip": true,
+  "artifact_sha256_matches": true,
+  "review_verdict": "PASS",
+  "canonical_research_review": "NOT_RUN",
+  "direction_80_percent": "UNVERIFIED",
+  "initial_coordinator_bootstrap_thread": "MISMATCH preserved; subsequent pilot root checks PASS",
+  "native_schedule_execution": "NOT_RUN"
+}

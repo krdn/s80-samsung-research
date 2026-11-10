@@ -1,0 +1,28 @@
+@S80-R1-데이터 [S80-CROSS-REVIEW]
+run_id: cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+phase: rebuttal
+channel: 11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5
+thread_root_event_id: 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917
+기한: 2026-11-10T10:49:57.578215+00:00 (교차검토 최대10분)
+소유 파일: /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-rebuttal.md
+R2의 P1·Markov 반례·expanding/SPA 적용 범위를 자료가용성·권리·결측 관점에서 반박하고 R3의 R1 질문에 직접 답하세요. IR→DART→전문 체인에서 최초 사용 가능 버전·시각을 입증하는 증거와 역사 제외/전향 관찰 기준, 파생 라벨 권리 미해결 처리를 명시하세요. DART 검색 명세 확인을 PIT·권리 해소로 확대하지 마세요. R3 배당 결의 확인의 근거 범위(주당/총액/단계·현행 확인과 과거 가용시각)를 비판하고 지급 완료로 확대하지 마세요. R2·R3에 보낼 필요한 질문을 각각 명시하되 답을 만들지 마세요.
+서로의 핵심 결론과 R3의 반론을 실제 읽고 질문에 직접 답하세요. 합의되지 않은 사항과 미확인을 보존하고 R3가 industry-answer에서 답할 질문을 구별하세요. R1/R2 간 질문은 현재 자료로 답할 수 있는 범위에서 직접 검토하고 답을 확보하지 못하면 미해결로 기록하세요. 추가 왕복을 자동 생성하지 마세요.
+사실/추론/제안·변경점·반론·출처·근거범위·미확인·PASS/NO_CHANGE/BLOCKED를 기록하세요. 기존 A_all·분모·보합/보류/미평가·PIT·정정·캘린더·마감·M3 역사오염·lockbox 계약은 보존합니다. 월간 감사는 전체 재확인 완료로 바꾸지 마세요. 방향80%·전체 오류율/검정력은 실증 전 미검증입니다.
+입력 전부 재해시, TEAM 역할/총괄 신원·STOP 확인. 불일치면 BLOCKED 1회. 신규 소유 파일만 작성, 기존 역사·canonical·TEAM·manifest·타 역할 파일 수정 금지. 에이전트 생성·재위임·인증·유료 호출 금지. 같은 run/phase 중복 처리 금지.
+입력 SHA256:
+107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md
+777f5a312f3b83316391106f788a190e2981f060af5aadb7442d3df30be9f8ab  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/TEAM.json
+4c62ea31fed9fb2ec4c0bd94fc45095876dc1bd024f9f8eba3c3ca9575df33d0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/OPERATING-CONTRACT.md
+bfec7a41068626b3eafecee7f67a574b3dd044a4a608d73179c4b27374f134e0  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/00-brief.md
+f53eb0445347e8f4b8fabe61c440ddeddd55f581556e0edfdeab4e7aeeac3dbc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/06-discussion-record.md
+2f99cd8012cf799dccec60ad3f65ccf0389728cf49e2a68929ea3c4b3a40ff41  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-lead-evidence.md
+5befdfa4a38f6648e832cbd9bb5deba633c22f256241a0034a69a7bfe75294ca  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/04-calculation-examples.json
+f9b7b93c0b5853ecec68abf5cf4408d5b98d91b95e3628ccfb4b7b34c5b2f189  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/01-data-api.md
+2798598c4c2fcc73903ec4483adde16e779e13aac5103f2a50f322f3f95ed532  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/01-data-rebuttal.md
+1a98ca28da3b7363689f40faa986107bf4f4932252f0625fe7cd5981613e4d6e  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/prompts/data.md
+9e5adaa29aa488b5143644770d9d2d06a40c95cb975f37a1a19c40ff348faffc  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/data-research.md
+06eefed88629947c796c005b1c5604e44661ef0e7106d1f3acc5ce4cacd872b2  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/quant-research.md
+b5481fa4518ecf2a359518f981f38e7f862b82b37ad29a2db5910a95d8d62287  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-scenarios.md
+dacff7868e2941ca16697c70a78c6a2b465ca907eef9eeede8db49b1565557f1  /home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261110-9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917/industry-rebuttal.md
+
+완료 시 같은 채널에서 @S80-총괄에게 run_id/phase/경로/SHA/판정을1회 회신하세요. 요청은 현재 턴 context 회신 대상에 연결합니다. 원래 run root는 메타데이터에 보존하며 후속 회신은 운영계약의 root 9ecb6f2e506723c98bea23a56d4a7faed09d5fc196ceed01b5bb4aecbcea0917를 사용하세요.

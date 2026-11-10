@@ -1,0 +1,1 @@
+2026-11-10 12:36:02 KST: native Buzz Desktop PID3904146 terminated with segmentation fault (user journal). External review form had not been submitted. Reopened existing desktop launcher; no config/identity files edited.

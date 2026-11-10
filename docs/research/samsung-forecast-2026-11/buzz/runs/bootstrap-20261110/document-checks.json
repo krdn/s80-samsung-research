@@ -1,0 +1,130 @@
+{
+  "status": "PASS_LOCAL_CHECKS_WITH_STE_UNAVAILABLE",
+  "scope": "candidate 로컬 링크·표 구조·고정 입력 SHA·baseline·통신 root; 원문/성능 미검증",
+  "candidate_sha256": "b65f2bbc71615475cf0be504dacec9c4f219f6b034f442ecae999a06c728f229",
+  "links": [
+    {
+      "target": "bootstrap-data.md",
+      "exists": true
+    },
+    {
+      "target": "bootstrap-quant.md",
+      "exists": true
+    },
+    {
+      "target": "bootstrap-industry.md",
+      "exists": true
+    },
+    {
+      "target": "../../TEAM.json",
+      "exists": true
+    },
+    {
+      "target": "bootstrap-coordinator.md",
+      "exists": true
+    },
+    {
+      "target": "bootstrap-review.md",
+      "exists": true
+    },
+    {
+      "target": "manifest.json",
+      "exists": true
+    },
+    {
+      "target": "pilot-routing-evidence.json",
+      "exists": true
+    },
+    {
+      "target": "quant-probe.md",
+      "exists": true
+    },
+    {
+      "target": "team-probe-reply-evidence.json",
+      "exists": true
+    },
+    {
+      "target": "../../OPERATING-CONTRACT.md",
+      "exists": true
+    }
+  ],
+  "table": {
+    "columns": 3,
+    "data_rows": 3,
+    "status": "PASS"
+  },
+  "hashes": {
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-coordinator.md": "1aba9da9afd36402ebe02bf66833a5ea81ebd20c302d5d4d2c1da449755edcaa",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-data.md": "6c8f44d2adf4e1c63206aebd0c28d35193d3b686093c8b498f5ac8350a030e21",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-quant.md": "c13b5676dbaef840df45f47fef62b5480af539c665ce0bb5ed7f9b0f24e49c58",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-industry.md": "0e804ecbd5fb8c6164b90614d3fe1a08e427834c1b189820209cbe6f7e2055c0",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/bootstrap-review.md": "45d39e5c84335e57fefd6e43638eb1d7f674d78856a1167deb855ac99e478e30",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/bootstrap-20261110/quant-probe.md": "e7086c33733cb9210d785cce9da75ff09f9e30fc439d613985ed2c27d1b0cdbe",
+    "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-direction-80-research-2026-11.md": "107b4db7d9bb9235347c40ec1db32eb5c0ac404cdb6a54c4f68b6fabb932004c"
+  },
+  "new_performance_numbers": 0,
+  "calculation": "새 성능 수치·실험 없음; 시각·수치는 입력 기록과 대조",
+  "routing": {
+    "team_probe_request": {
+      "event_id": "a62c48f08a50bf8e0cbe20666b39e7869136877c123435c9a6be08a531660a66",
+      "observed_root_event_id": "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+      "status": "PASS",
+      "tags": [
+        [
+          "h",
+          "11c1ea3c-c9c1-49fa-ae2c-bced8d7616b5"
+        ],
+        [
+          "e",
+          "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+          "",
+          "root"
+        ],
+        [
+          "e",
+          "af599483f39ff1a0fa35bea6a6d5af86ab14d9846129c74ef3ac533b065808f2",
+          "",
+          "reply"
+        ],
+        [
+          "p",
+          "699ae7aed2d0b586228e7e293a0bb28c17f8009a46fcb8762d814743cab4c915"
+        ],
+        [
+          "auth",
+          "daf45890d154a62a914beabd1ac9adb5ceba41f32ef80f2a3021ccf07b89d858",
+          "",
+          "703db9668330b7c10cf4216290d809d32b7aa24176125e6caf2250544a0a48ef3db9fdfc2e5b85203b5a3abbf9745a5c24bcc69c8d1267524aaa1055899e48c6"
+        ]
+      ]
+    },
+    "team_probe_reply": {
+      "status": "PASS",
+      "event_id": "d36b458298ac31b40f0b7b61f5e45b87b3d4382a1277ded14089d360d3225d95",
+      "observed_root_event_id": "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+      "request_parent_matches": true
+    },
+    "review_request": "PENDING",
+    "review_reply": "PENDING",
+    "future_requests_reply_to": "2bbdec4c573e1abdedfd7d805892f29bf529e1630cd0164fdd7e9d6e1b86c789",
+    "next_regular_run_policy": "실제 시작 이벤트를 thread root로 고정해 모든 단계에 전달"
+  },
+  "canonical_diff": "UNCHANGED; candidate.diff는 신규 인계문서 추가 diff",
+  "checked_at": "2026-11-10T03:50:04.911985+00:00",
+  "ste_lint": {
+    "status": "NOT_RUN",
+    "exit_code": 2,
+    "reason": "docs/conventions/ste100-writing.md 부재로 도구 실행 불가",
+    "response": {
+      "schema": "evolve.docs.ste-lint/1",
+      "ok": false,
+      "data": null,
+      "error": {
+        "code": 2,
+        "kind": "io",
+        "message": "evolve docs ste-lint: read the standard: open /home/gon/dev/test/test-samjeonnix/docs/conventions/ste100-writing.md: no such file or directory"
+      },
+      "warnings": []
+    }
+  }
+}
