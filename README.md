@@ -2,15 +2,15 @@
 
 삼성전자 다음 거래일 방향 예측 80% 목표를 연구한 자료와 Buzz 연구팀의 설정·운영·실패·복구 이력을 보존한다. 80%는 연구 목표이며 실증된 성능이 아니다.
 
-## 최신 완료 결과 · 2026-11-10
+## 최신 완료 결과 · 2026-11-13
 
-연구 문서의 조사·토론·검사·외부검토와 정본 반영을 완료했다. SEC 입력의 정정·권리 구분과 산업 사건 선택·검정 가정의 사전등록 요구를 보강했다.
+연구 문서의 조사·토론·검사·외부검토와 정본 반영을 완료했다. SEC 인덱스의 정정·삭제 반영 설명을 원문의 세 범위로 좁혔다. 모델·자료·검정법의 신규 채택은 없다.
 
-- [최종 연구 문서](snapshots/20261110T132851Z/docs/research/samsung-direction-80-research-2026-11.md)
-- [중요 과정·조사·반론·검토 기록](snapshots/20261110T132851Z/README.md)
-- [GitHub 반영 PR #2](https://github.com/krdn/s80-samsung-research/pull/2) · [main CI 통과](https://github.com/krdn/s80-samsung-research/actions/runs/42825442916)
+- [최종 연구 문서](snapshots/20261113T101109Z/docs/research/samsung-direction-80-research-2026-11.md)
+- [중요 과정·조사·반론·검토 기록](snapshots/20261113T101109Z/README.md)
+- 직전 결과: [2026-11-10 보존본](snapshots/20261110T132851Z/README.md)
 
-원격 main의 연구 산출물13개 SHA256이 원본과 일치함을 확인했다. 최종 문서 SHA256은 `da3dad78a4f3b4fd385973d8b4a856b1841c8d8d45af9a9602b1c47c04d83083`다.
+최종 문서 SHA256은 `7b9d88f7961a60681763f8f60b6b95bbc6637342e0b15fe38f1f9313542711b8`다. 스냅샷의 연구 산출물13개는 SHA256SUMS로 검사한다.
 
 **방향80%는 미검증이다.** 실제 데이터 권리·수신 검증, 사건 규칙 사전등록, 학습·백테스트·미래 관찰이 남아 있다. 전체 월간 감사는 부분 완료다. 이후에도 문서 완료마다 최종 문서와 중요한 과정을 이 저장소에 보존한다.
 
@@ -23,8 +23,8 @@
 | 연구·프롬프트·운영 개선과 되돌리기 | [업그레이드와 진화](docs/guides/evolution.md) |
 | 현재 확인 상태·기존 기록의 불일치 | [인계 상태](docs/ARCHIVE-STATUS.md) |
 | 저장 범위·무결성·제외 항목 | [보존 정책](archive/README.md) |
-| 연구의 최신 내용 | [최신 통합 연구 문서](snapshots/20261110T132851Z/docs/research/samsung-direction-80-research-2026-11.md) |
-| 갱신 내역 | [최신 변경·과정](snapshots/20261110T132851Z/README.md) |
+| 연구의 최신 내용 | [최신 통합 연구 문서](snapshots/20261113T101109Z/docs/research/samsung-direction-80-research-2026-11.md) |
+| 갱신 내역 | [최신 변경·과정](snapshots/20261113T101109Z/README.md) |
 | 시간 지연 원인·개선 교훈 | [이전 과정 분석](docs/incidents/2026-11-10-buzz-migration-latency.md) |
 
 ## 구성

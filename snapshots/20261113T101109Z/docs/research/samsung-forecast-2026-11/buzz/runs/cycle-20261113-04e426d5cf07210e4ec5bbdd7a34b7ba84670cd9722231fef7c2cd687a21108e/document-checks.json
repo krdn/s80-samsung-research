@@ -1,0 +1,73 @@
+{
+ "run_id": "cycle-20261113-04e426d5cf07210e4ec5bbdd7a34b7ba84670cd9722231fef7c2cd687a21108e",
+ "checked_at": "2026-11-13T10:07:47.449920+00:00",
+ "status": "PASS_DOCUMENT_CHECKS",
+ "candidate_sha256": "7b9d88f7961a60681763f8f60b6b95bbc6637342e0b15fe38f1f9313542711b8",
+ "baseline_sha256": "da3dad78a4f3b4fd385973d8b4a856b1841c8d8d45af9a9602b1c47c04d83083",
+ "diff_sha256": "17ab101b7ee1c157056d73963b9b6c6f2806bf4c3243488d649d0d3961669183",
+ "diff_summary": {
+  "removed_lines": 1,
+  "added_lines": 7,
+  "scope": "L159 SEC 첫 문장 대체+출처 링크 1개 추가, 문서 끝 run 확인 절 1개 추가"
+ },
+ "relative_links": {
+  "count": 32,
+  "baseline_count": 27,
+  "missing": [],
+  "resolution_base": "/home/gon/dev/test/test-samjeonnix/docs/research",
+  "candidate_storage_note": "links resolve at canonical destination"
+ },
+ "markdown_tables": {
+  "count": 9,
+  "consistent_columns": true
+ },
+ "code_fences_balanced": true,
+ "calculations": {
+  "wilson_examples": [
+   {
+    "correct": 16,
+    "n": 20,
+    "lower": 0.5839825677481065,
+    "upper": 0.9193423374202021,
+    "doc_lower_pct": 58.4,
+    "match": true
+   },
+   {
+    "correct": 80,
+    "n": 100,
+    "lower": 0.7111708344068411,
+    "upper": 0.8666330666689674,
+    "doc_lower_pct": 71.12,
+    "match": true
+   },
+   {
+    "correct": 200,
+    "n": 250,
+    "lower": 0.7460440266329055,
+    "upper": 0.8448759936698278,
+    "doc_lower_pct": 74.6,
+    "match": true
+   },
+   {
+    "correct": 215,
+    "n": 250,
+    "lower": 0.8115202816735541,
+    "upper": 0.8975837426897257,
+    "doc_lower_pct": 81.15,
+    "match": true
+   }
+  ],
+  "wilson_all_match": true,
+  "selective_example_present": false,
+  "new_numeric_claims": "NONE (날짜 2026-11-12와 문헌 번호만 추가)"
+ },
+ "ste_lint": {
+  "status": "NOT_RUN",
+  "reason": "docs/conventions/ste100-writing.md absent",
+  "exists": false
+ },
+ "primary_sources_rechecked_by_coordinator": "NONE (역할 파일 보고 인용; SEC 원문은 R1·R2·R3가 각자 대조했다고 보고)",
+ "performance_80_percent": "UNVERIFIED",
+ "monthly_audit": "PARTIAL",
+ "experiments": "NOT_RUN"
+}
