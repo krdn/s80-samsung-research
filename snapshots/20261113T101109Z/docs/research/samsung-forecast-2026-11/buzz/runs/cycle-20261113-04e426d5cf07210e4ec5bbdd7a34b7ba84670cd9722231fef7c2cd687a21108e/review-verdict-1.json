@@ -1,0 +1,49 @@
+{
+ "run_id": "cycle-20261113-04e426d5cf07210e4ec5bbdd7a34b7ba84670cd9722231fef7c2cd687a21108e",
+ "phase": "review-1",
+ "role": "review",
+ "reviewer_pubkey": "75e1c1fe9bd1f3337d5d4efa98c9d427bb88102cf01d160294c21e02390449e7",
+ "reviewed_at": "2026-11-13T10:08:19Z",
+ "candidate_path": "/home/gon/dev/test/test-samjeonnix/docs/research/samsung-forecast-2026-11/buzz/runs/cycle-20261113-04e426d5cf07210e4ec5bbdd7a34b7ba84670cd9722231fef7c2cd687a21108e/candidate.md",
+ "candidate_sha256": "7b9d88f7961a60681763f8f60b6b95bbc6637342e0b15fe38f1f9313542711b8",
+ "baseline_sha256": "da3dad78a4f3b4fd385973d8b4a856b1841c8d8d45af9a9602b1c47c04d83083",
+ "diff_sha256": "17ab101b7ee1c157056d73963b9b6c6f2806bf4c3243488d649d0d3961669183",
+ "inputs_sha_verified": "17/17",
+ "diff_regenerated_match": true,
+ "verdict": "PASS",
+ "unresolved_major_defects": [],
+ "prior_observation_status": {
+  "O1": "RESOLVED (SEC 원문 직접 대조, 세 범위 일치)",
+  "O2": "NOT_IN_SCOPE (미변경, 충돌 없음)",
+  "O3": "NO_CHANGE 수용 (L159에 같은 조건 존재)"
+ },
+ "non_blocking_observations": [
+  {
+   "id": "N1",
+   "location": "candidate.md 문서 끝 새 절 마지막 문단",
+   "summary": "직전 run 절 마지막 문단과 거의 같은 반복; 충돌 없음, 수정 불요"
+  },
+  {
+   "id": "N2",
+   "location": "candidate.md L159",
+   "summary": "'토요일 이른 시각' 시간대는 원문도 미표시; 현 문구 정확, 07:40 KST와 맞춰 쓸 경우에만 시간대 미확인 기록 필요"
+  }
+ ],
+ "primary_source_checked": {
+  "url": "https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data",
+  "posted": "2021-03-23",
+  "last_reviewed": "2024-06-26",
+  "checked_at": "2026-11-13T10:08:19Z",
+  "scope": "Post-acceptance corrections and deletions 절 3문장"
+ },
+ "not_directly_checked": [
+  "NVIDIA·Micron 원문",
+  "Wilson 재계산",
+  "링크 총수 32"
+ ],
+ "performance_80_percent": "UNVERIFIED",
+ "experiments": "NOT_RUN",
+ "monthly_audit": "PARTIAL",
+ "reviewer_model_self_reported": "claude-opus-5-5",
+ "provider_returned_model_effort": "UNVERIFIED"
+}
